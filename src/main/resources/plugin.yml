@@ -1,0 +1,7 @@
+name: SimpleAnnouncement
+version: '${project.version}'
+main: com.hypernite.plugin.os.simpleannouncement.main.SimpleAnnouncement
+api-version: 1.17
+authors: [ AnsonTsang ]
+description: Simple Announcement
+website: https://mc.hypernite.com

@@ -1,0 +1,11 @@
+# Configuration for Simple Announcement Plugin
+
+settings:
+  enable: false # Will the plugin enabled
+  refresh-period: 30 #in seconds
+  next-announcement-period: 5 #in seconds
+  announcement-prefix: "[Simple Announcement]"
+
+announcements:
+  - "I am a test announcement"
+  - "I am a test announcement 2"
