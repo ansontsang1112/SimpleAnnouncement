@@ -2,9 +2,13 @@
 
 settings:
   enable: false # Will the plugin enabled
-  refresh-period: 30 #in seconds
-  next-announcement-period: 5 #in seconds
+  next-announcement-period: 30 #in seconds
   announcement-prefix: "[Simple Announcement]"
+  broadcast-prefix: "&c[&lBroadcast]&f"
+
+message:
+  broadcast: "%b_prefix% Message From %admin%:&f %message%" # %XXX% is the placeholders. Don't change.
+  p2p: "Admin message from %admin%: %message%" # %XXX% is the placeholders. Don't change.
 
 announcements:
   - "I am a test announcement"

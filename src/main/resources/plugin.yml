@@ -5,3 +5,8 @@ api-version: 1.17
 authors: [ AnsonTsang ]
 description: Simple Announcement
 website: https://mc.hypernite.com
+commands:
+  sap:
+    description: Simple Announcement Admin Commands
+    usage: /sap
+    permission: sap.admin
