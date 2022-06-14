@@ -19,11 +19,11 @@ public class CommandExecutor implements org.bukkit.command.CommandExecutor {
                 break;
 
             case "announce":
-                new BroadcastCommand(sender, args[1]).execute();
+                new BroadcastCommand(sender, args).execute();
                 break;
 
             case "send":
-                new P2PCommand(sender, args[1], args[2]).execute();
+                new P2PCommand(sender, args).execute();
                 break;
 
             default:

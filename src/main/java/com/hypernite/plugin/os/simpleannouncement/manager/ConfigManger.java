@@ -12,6 +12,7 @@ public class ConfigManger {
     // Config Vars
     public static List<?> messages;
     public static String prefix, broadcastPrefix, broadcastMessageFormat, adminMessageFormat;
+    public static String delivered, permissionDenied, playerNotFound;
     public static int nextAnnouncementPeriod;
     public static boolean isEnable;
 
@@ -43,6 +44,9 @@ public class ConfigManger {
         broadcastMessageFormat = fileConfiguration.getString("message.broadcast");
         adminMessageFormat = fileConfiguration.getString("message.p2p");
         messages = fileConfiguration.getList("announcements");
+        delivered = fileConfiguration.getString("message.delivered");
+        permissionDenied = fileConfiguration.getString("message.permission-denied");
+        playerNotFound = fileConfiguration.getString("message.player-not-found");
     }
 
     public void reloadConfig() {

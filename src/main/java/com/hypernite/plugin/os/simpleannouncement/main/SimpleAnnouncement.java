@@ -11,6 +11,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class SimpleAnnouncement extends JavaPlugin {
     public static Plugin plugin;
 
+    public static final String COMMAND_PREFIX = "sap";
+
     @Override
     public void onEnable() {
         plugin = this;
